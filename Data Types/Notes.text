@@ -1,0 +1,74 @@
+# Data Types in Javascript 
+
+1. There is two types of data types in Javascript
+    1--> primitive data types
+    2--> Non- Primitive data types
+
+# We can classify primitive data types in 7 categories.
+    1.Number
+    2.String
+    3.boolean
+    5.undefined
+    .Null
+    6.BigInt
+    7.symbol
+
+# In js for checking wich data type is that so we can use (typeof).
+
+##########################################---NUMBER---#########################################################
+
+1. Number ---> In js we can just use number for example if we write like this 8, 8.8 ,-80 ,its everything is number.
+
+
+##########################################---STRING---#########################################################
+
+2.String ---> In Js we can Write string like this for example "Hello" this simple example of string data type
+             
+            Example using double quotes "hnshfiuhfhsdhfa" and using single quotes 'hjsguygfduyftg' or using both "hiushdysyd 'hspd' "
+
+            'sdhsdh"jyhuyhd" '
+#IMP ---> if we defining string using both of the types see the code example in js file 
+
+                let str4 = " " // in js using double quotes this is also consider as string. 
+                let str5 = ' ' // in js using single quotes this is also consider as string. 
+                let str6 = ` ` // in js using backticks this is also consider as string.
+
+#IMP In Js double quotes and single quotes not support the new line string but backticks is support the new line string 
+        
+ For Example.. This both the string writing in different line or new line its not allowed in js using double quotes and single quotes 
+            but we can define  big string using backticks ` ` this support the new line and we can easly write the big string.      
+
+                const str7 = "hello my name 
+                is ravi"
+
+                const str8 = 'hello my name 
+                is ravi'
+#IMP while we defining the string using backticks we can use any symbol in it. so we recommend use backticks for the big string. 
+#IMP `` In Js backticks called (template literals) also.
+
+
+##########################################---BOOLEAN ---#########################################################
+
+---> Boolean have a only two values one is true and sencond is false  
+
+false = 0 And True = 1 for checking we can use this syntex +false +true check the code 
+
+#IMP If we can use + before the any string and boolean value its convert in to number 
+
+##########################################---UNDEFINE ---#########################################################
+1. In js undefined is keyword and also data type but js only knows undefined not undefine typeof undefined is undefined
+2. In js if there any variable not defined so js automaticaly put undefined keyword in it.
+
+Lets see after learn variables...
+
+##########################################---NULL ---#########################################################
+1. Null Is also data type in js but we can use it as define not like undefined 
+2. null convert into in a number using +null. and null value is a 0.
+
+##########################################---BIGINT ---#########################################################
+
+====Resarch on it 
+
+##########################################---SYMBOL---#########################################################
+
+-----> leran afte master the js.
