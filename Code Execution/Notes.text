@@ -1,0 +1,11 @@
+# How to code execution done in javascript.
+1.Memory Creation Phase --->
+   # Steps of memory creaction phase.
+    1. Javascript engine srach for the all variable 
+    2. Then create memory for all variables (let,const,var).and put the undefine value bydefault in it.
+
+2.Code Execution Phase --->
+   # Steps of code execution phase.
+   1.then give the all variables acutal value and type 
+     example let name = "ravi" 
+    value is ravi and type is string same as all the varible give the value and type.
