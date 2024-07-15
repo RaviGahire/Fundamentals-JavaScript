@@ -86,3 +86,28 @@ let message = "Hello";
 console.log(message.padStart(5, "Welcome"));  // Output: "Hello"
 
 // In this case, "Hello" is already longer than targetLength, so no padding is added.
+
+
+// charAt() method example.
+
+const Normal_Text = "This is normal text" 
+
+console.log(Normal_Text.charAt(2)); //output is i accessing character using index value.
+console.log(Normal_Text[2]);//out put same as above example.
+
+
+
+// charCodeAt() method example.
+console.log(Normal_Text.length) // out put is 19 , string length is 19 
+console.log(Normal_Text.charCodeAt(20)) //output is NaN because of our string length is 19 out of string length.
+console.log(Normal_Text.charCodeAt(0)) //output is 84 its T unicode
+console.log(Normal_Text.charCodeAt(2)) //out put is 105 because of i character index is 2 thats why output is 105
+
+
+// example of split ()
+
+const noramlStr = 'hello i am ravi'
+
+console.log(noramlStr.split()); //output of this code is ['hello i am ravi'] whole string convert into array.
+console.log(noramlStr.split('')) //output of this code is ["h","e",.....n] all the single character convert in to array. here is we pass the without space in the split('');
+console.log(noramlStr.split(' ')) // output is ['hello', 'i', 'am', 'ravi']

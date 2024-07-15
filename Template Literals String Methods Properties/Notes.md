@@ -109,3 +109,79 @@ console.log(add1+ ' ,'+add2)// using plus + operator
 string.padStart(targetLength, padString)
 -----> targetLength: The desired length of the resulting string. If the original string is already as long or longer, no padding occurs.
 -----> padString: The string that will be added to the beginning of the original string until it reaches the targetLength. This string can be repeated as needed.
+
+ padStart() method example 
+----> pad start method calculate whole string including the string value also same as padEnd.
+
+const number = "2587"
+
+console.log(number.padStart(10, "*")); // output is ******2587 You can put any character or symbol as you want to show before the given string.
+
+
+
+7.padEnd()---> same as pad start see in the below example 
+
+console.log(number.padEnd(10, "*")); // out put is 2587****** 
+
+let message = "Hello";
+console.log(message.padStart(5, "Welcome"));  // Output: "Hello"
+
+In this case, "Hello" is already longer than targetLength, so no padding is added.
+
+8.charAt()--->The charAt() method helps you find out which character is at a specific position in a string.
+The charAt() method treats the string as zero-indexed, meaning the first character is at position 0.
+If you pass a negative index, charAt() will also return an empty string.
+
+string.charAt(index)
+
+
+charAt() method example.
+
+const Normal_Text = "This is normal text" 
+
+console.log(Normal_Text.charAt(2)); //output is i accessing character using index value.
+console.log(Normal_Text[2]);//out put same as above example.
+
+let sentence = "Hello, world!";
+let outOfRangeChar = sentence.charAt(20);
+console.log(outOfRangeChar);  // Output: " " empty string or nothing in console
+
+
+9.charCodeAt()----->
+# IMP---> Capital character and small character unicode value is different from each other.
+The charCodeAt() method helps you find out the Unicode (numerical) value of the character at a specific position in a string.
+The charCodeAt() method treats the string as zero-indexed, meaning the first character is at position 0.
+If you pass a negative index, charCodeAt() will return NaN.
+
+Refer this link for character unicode--->https://www.w3schools.com/charsets/ref_html_ascii.asp.
+
+string.charCodeAt(index);
+
+ charCodeAt() method example.
+
+console.log(Normal_Text.length) // out put is 19 , string length is 19 
+console.log(Normal_Text.charCodeAt(20)) //output is NaN because of our string length is 19 out of string length.
+console.log(Normal_Text.charCodeAt(0)) //output is 84 its T unicode
+console.log(Normal_Text.charCodeAt(2)) //out put is 105 because of i character index is 2 thats why output is 105
+
+
+
+10.split()---->
+The split() method helps you divide a string into smaller parts and puts those parts into an array.
+
+If the separator is an empty string (""), the split() method will return an array of individual characters.
+If the separator is not found in the string, the split() method will return an array containing the entire string as the only element.
+
+string.split(separator, limit)
+
+example of split ()
+
+const noramlStr = 'hello i am ravi'
+
+console.log(noramlStr.split()); //output of this code is ['hello i am ravi'] whole string convert into array.
+console.log(noramlStr.split('')) //output of this code is ["h","e",.....n] all the single character convert in to array. here is we pass the without space in the split('');
+console.log(noramlStr.split(' ')) // output is ['hello', 'i', 'am', 'ravi']
+
+let sentence = "one, two, three, four";
+let limitedSplit = sentence.split(",", 2);
+console.log(limitedSplit);  // Output: ["one", " two"]
