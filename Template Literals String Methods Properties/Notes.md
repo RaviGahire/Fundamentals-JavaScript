@@ -184,4 +184,19 @@ console.log(noramlStr.split(' ')) // output is ['hello', 'i', 'am', 'ravi']
 
 let sentence = "one, two, three, four";
 let limitedSplit = sentence.split(",", 2);
-console.log(limitedSplit);  // Output: ["one", " two"]
+console.log(limitedSplit);  // Output: ["one", " two"];
+
+# String Template Literals 
+---> Template literals make it easy to embed variables and expressions within a string. You use the ${expression} syntax to embed the expression.
+
+----> Template literals are enclosed by backticks (``)
+----> They support string interpolation with ${expression}.
+----> They allow multi-line strings without escape characters.
+----> Template literals are dynamic because of if variable value is change result also change.
+
+# Example of template literals.
+
+const lastFourDigit = '2556'
+const tempStr = `Last four digit of my account number is ${lastFourDigit}`//here in ${this brackets you can write actual javascript in it }
+console.log(tempStr);
+

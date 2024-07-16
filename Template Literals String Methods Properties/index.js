@@ -111,3 +111,12 @@ const noramlStr = 'hello i am ravi'
 console.log(noramlStr.split()); //output of this code is ['hello i am ravi'] whole string convert into array.
 console.log(noramlStr.split('')) //output of this code is ["h","e",.....n] all the single character convert in to array. here is we pass the without space in the split('');
 console.log(noramlStr.split(' ')) // output is ['hello', 'i', 'am', 'ravi']
+
+
+// String template literals 
+
+const lastFourDigit = '2556'
+const tempStr = `Last four digit of my account number is ${lastFourDigit.padStart(10,"-")}`//here in ${this brackets you can write actual javascript in it }
+console.log(tempStr)
+
+
