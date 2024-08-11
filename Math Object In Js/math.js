@@ -41,3 +41,22 @@ console.log("Math.round example--->" , Math.round(roundValue))
 let ceilValue = 2.01
 
 console.log("Math.ceil Example --->" ,Math.ceil(ceilValue))
+
+// Math.random give us random number value 
+
+let randomNumbers = Math.random();
+console.log("Math.random example --->",randomNumbers)
+
+let randomNumbers2 = Math.random() * 10; // its give us on 0 to. close to 10 but not give us 10 
+console.log("Math.random example --->",randomNumbers2)
+
+console.log("Math.random second example ", Math.floor(Math.random () * 10) )
+
+
+// assignment 1 
+// write program between 10 to 20 show random numbers using Math.floor and Math.random 
+
+let minNumber = 10;
+let maxNumber = 20;
+
+console.log("Random number between 10 and 20",Math.floor(Math.random() * ( maxNumber - minNumber) + minNumber ))
