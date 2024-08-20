@@ -22,5 +22,13 @@ const numberChecking = num1 === num2
 console.log(numberChecking)
 
 ---> in above example we are checking the two value using comparison operator === 
+---> we can use pasreInt(value) for convert string into number. and another is use + before string this bothe methods use for convert in number (explicit conversion we can call this manual conevert)
 ---> if both the value and type is same then this operator return true otherwise return false
 
+3. != not equal its give out put true if given value is not equal to each other. this acutal check not equality 
+example
+
+4. !== this is check not equal value or not equal type its same as ===.
+
+5.  greter than > ---> this also  convert the string into inuber behinde scence 
+6. less than <  ---> 
