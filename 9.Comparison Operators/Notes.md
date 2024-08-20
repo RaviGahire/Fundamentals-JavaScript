@@ -31,4 +31,11 @@ example
 4. !== this is check not equal value or not equal type its same as ===.
 
 5.  greter than > ---> this also  convert the string into inuber behinde scence 
+
+
+
+
+
+
+
 6. less than <  ---> 
