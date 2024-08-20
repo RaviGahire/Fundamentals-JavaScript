@@ -13,7 +13,7 @@
     6.BigInt
     7.symbol
 
-# In js for checking wich data type is that so we can use (typeof).
+# In js for checking which data type is that so we can use (typeof).
 
 ##########################################---NUMBER---#########################################################
 
@@ -36,7 +36,7 @@
 #IMP In Js double quotes and single quotes not support the new line string but backticks is support the new line string 
         
  For Example.. This both the string writing in different line or new line its not allowed in js using double quotes and single quotes 
-            but we can define  big string using backticks ` ` this support the new line and we can easly write the big string.      
+            but we can define  big string using backticks ` ` this support the new line and we can easily write the big string.      
 
                 const str7 = "hello my name 
                 is ravi"
@@ -49,15 +49,15 @@
 
 ##########################################---BOOLEAN ---#########################################################
 
----> Boolean have a only two values one is true and sencond is false  
+---> Boolean have a only two values one is true and second is false  
 
-false = 0 And True = 1 for checking we can use this syntex +false +true check the code 
+false = 0 And True = 1 for checking we can use this syntax +false +true check the code 
 
 #IMP If we can use + before the any string and boolean value its convert in to number 
 
 ##########################################---UNDEFINE ---#########################################################
 1. In js undefined is keyword and also data type but js only knows undefined not undefine typeof undefined is undefined
-2. In js if there any variable not defined so js automaticaly put undefined keyword in it.
+2. In js if there any variable not defined so js automatically put undefined keyword in it.
 
 Lets see after learn variables...
 
@@ -67,8 +67,8 @@ Lets see after learn variables...
 
 ##########################################---BIGINT ---#########################################################
 
-====Resarch on it 
+====Research on it 
 
 ##########################################---SYMBOL---#########################################################
 
------> leran afte master the js.
+-----> learn after master the js.

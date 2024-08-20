@@ -1,0 +1,22 @@
+#JavaScript Variables.
+
+# Rules for naming variables
+1.Capital letters A to Z
+2.Small letters a to z
+3.digits 0 to 9 (but we can not use number start of the variable name for example let 1num = 100 js not allow to us give name like this but we can use let num1 = 100 )
+4.Only tow special character we are use to define variable name one is underscore and second one is dollar sign for example let first_name or first$name like this.
+
+
+
+---> A JavaScript Variables is just name of storage location. and  we can give that name in three ways  
+1.Using (let) keyword. 
+2.Using (const) keyword. 
+3.Using (var) keyword. 
+
+#IMP---> let and const come into JavaScript in 2015 , before let and const js developer use to define variables var keyword.
+#IMP ---> If we declared variables Using let and const they only accessed in that block only 
+example --->
+This is one block {let name = "ravi"} this is only accessible only in this block,
+This is one block {const name = "ravi"} this is only accessible only in this block.
+
+------But if we are declared variables Using var keyword we can accessed those variables in global scope.------
