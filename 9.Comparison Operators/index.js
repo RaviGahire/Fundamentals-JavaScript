@@ -14,8 +14,8 @@ const numberChecking = num1 === num2
 console.log(numberChecking)
 
 // not Equal 
-// in this below example we are check both variable value is same but not equal to give us a output is flase beacuse of its checking both value if value are same 
-// its give output is flase if both value are not same or diffrent its give output true 
+// in this below example we are check both variable value is same but not equal to give us a output is false because of its checking both value if value are same
+// its give output is false if both value are not same or different its give output true
 
 let a = 5
 let b = 5

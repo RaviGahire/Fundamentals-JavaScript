@@ -67,8 +67,8 @@ const OR_OP = undefined  && console.log('This is and oparetor result');
 // go head for truthy value and checking second value and then calculet the expresion and give result of the second value
 // but here is also actual result is undefined.
 
-
+// NOT
 const trueValue = 1 
 console.log( 'Not Operator',Boolean(!trueValue));
 const falseValue = 0
-console.log( 'Not Operator',Boolean(!falseValue))
+console.log( 'Not Operator',Boolean(!falseValue));
