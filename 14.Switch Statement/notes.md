@@ -61,7 +61,7 @@ break;
 
 # IMP if switch case have multiple true conditions so and we also pass the true in switch lets see the example
 
-Explaination== In following example we pass the true condtion to the switch but here is tow condition is true but switch case not execute the second true  condtion. if frist true is executed the break keyword throught the execution out side the switch case loop. same as false condtion. if we are not use break keyword than poassibe to execute both conditions.
+Explanation: In the following example, we pass a true condition to the switch. However, even though two conditions are true, the switch does not execute the second true condition. If the first true condition is executed, the break keyword causes the execution to exit the switch case loop. The same applies to false conditions. If we do not use the break keyword, it is possible to execute both conditions.
 
 switch (true){
 case false:

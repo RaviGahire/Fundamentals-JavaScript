@@ -1,0 +1,36 @@
+// IMP When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison. 
+//An empty string converts to 0. A non-numeric string converts to NaN which is always false
+const x = 20;
+
+// 1 Less than (<) — returns true if the value on the left is less than the value on the right, otherwise it returns false.
+console.log('(x = 20) is not less than 15 so output is flase:(x < 15)', x < 15)// X is not less than 15 output is false.
+console.log('(x = 20) is less than 21 so output is true: (x < 21)', x < 21)// X is less than 21  so output is true.
+
+// 2 Greater than (>) — returns true if the value on the left is greater than the value on the right, otherwise it returns false.
+console.log('(x = 20) is greater than 20:(x > 20)', x > 20) // x is not less than 20 its same but output is false.
+console.log('(x = 20) is greater than 15:(x > 15)', x > 15)
+
+// 3 Less than or equal to (<=) — returns true if the value on the left is less than or equal to the value on the right, otherwise it returns false.
+console.log('(x = 20) is less than or equal to:(x <= 15)', x <= 15) // here 15 is less than x but not equal to the x value so output is false
+console.log('(x = 20) is less than or equal to: (x <= 22)', x <= 22) // Here is on one condition is true give value is not less than but greater than x so output is true.
+
+// 4 Greater than or equal to (>=) — returns true if the value on the left is greater than or equal to the value on the right, otherwise it returns false.
+console.log('(x = 20) is greater than or equal to the (x >= 15)', x >= 15) // here is one condition is true x is greater than 15 but not equal to so out put is true.
+console.log('(x = 20) here x is not greater than 23 so first condition is false so output is false (x >= 23)', x >= 23);
+console.log('(x = 20) here is both values is same so ans is true (x >= 20)', x >= 20) // here is both values is same so ans is true.
+
+// 5 equal to (==) return true if the value is same otherwise return flase.
+console.log('(x = 20) is equal to 15 (x == 15)', x == 15);
+console.log('(x = 20) is equal to (x == 20)', x == 20);
+
+// 6 equal value and equal type (===)
+console.log('(x = 20 ) is equal value and equal type (x === 20)' , x === 20)
+console.log(`(x = 20 ) is equal value and equal type (x ==='20')` , x === '20');
+
+// 7 not equal (!=)
+console.log('(x = 20) not equal (x != 15)', x != 15);
+console.log('(x = 20) not equal (x != 20)', x != 20);
+
+// 8 not equal value or not equal type(!==)
+console.log('(x = 20) not equal value or not equal type (x !== 20)', x !== 20);
+console.log('(x = 20) not equal value or not equal type (x !== "20")', x !== "20");
