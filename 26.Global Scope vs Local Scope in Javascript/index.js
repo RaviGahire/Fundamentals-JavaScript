@@ -23,3 +23,4 @@ function display() {
 
 display(); // Output: "I'm in the global scope"
 console.log(globalVar); // Accessible here too
+
