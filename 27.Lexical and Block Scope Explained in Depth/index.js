@@ -8,6 +8,7 @@ function outerFunction() {
     
     function innerFunction() {
         console.log(outerVariable); // Accessible: 'I am outside!'
+        
         console.log(innerVariable);  // Accessible: 'I am inside!'
     }
     
