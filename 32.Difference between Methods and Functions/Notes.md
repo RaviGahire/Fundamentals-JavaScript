@@ -1,0 +1,1 @@
+# Every function is not method but every method is a function
