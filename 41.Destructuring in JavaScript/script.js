@@ -94,3 +94,32 @@ userintro(user)
 //     console.log(index)
 //     }
 //     color(colors)
+
+
+//With array 
+const arr = [1,2,3,4,5]
+const [one,two,three,four,five] = arr
+// console.log(five)
+
+//if we want only one number the we can destructure like this 
+//     index and variable
+const {3:number} = arr
+console.log(number)
+
+
+
+
+// With Object
+const myObj = {
+  Name:'ravi',
+  role:'Js Developer',
+  age:28,
+  address:{
+    Mycity:'Pune',
+    state : 'MH'
+  }
+}
+const {Name,role} = myObj
+const {Name:userName,role:userRole} = myObj 
+const {address:{Mycity,state}} = myObj //Multilevel distructuring 
+console.log(city,state)
