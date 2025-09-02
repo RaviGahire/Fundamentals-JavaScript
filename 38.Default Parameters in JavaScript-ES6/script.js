@@ -51,3 +51,36 @@ function roll(DiesSides = 9 ) {
 }
 
 console.log(roll(8))
+
+
+// Default params advance 
+// You can use functions, operations, or even other parameters as defaults params
+function SumTwo ( x , y = x ){
+  return x + y
+}
+let result = SumTwo(5);
+console.log(result);
+
+// With Null value 
+// If user not provied any value in age or that is null or empty value then we are showing to user mgs provied ur age 
+function TroopsInfo (name,role,age = 'not provided' ){
+  if(age === null || age === ''){
+    age = 'please provide the age'
+  }
+return ` This is troop ${name} and hes role is ${role} and age is ${age}`
+}
+
+console.log(TroopsInfo('Ravi','Para-Asf',25))
+
+
+// Handling both the values null and empty in best way 
+
+function userInfo(name,age){
+
+  if(!age){
+    age = 0
+  }
+  return name+' '+age
+}
+
+console.log(userInfo('ravi', ))
