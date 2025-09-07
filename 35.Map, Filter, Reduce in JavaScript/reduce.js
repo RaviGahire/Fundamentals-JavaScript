@@ -37,10 +37,20 @@ const numbers = [1,2,3,4,5,6,7]
 
 numbers.reduce((accumletter , number , index)=>{
 
-   console.log(number)
+//    console.log(number)
 
    return accumletter + number
 
 },0)// 0 is a accumulator value 
 
 // IMP at the end ruduce give us a accumulator value 
+
+
+const fruits = ['lemon','lemon','lemon',"apple", "banana", "apple", "orange", "banana", "apple", "orange","orange",'lemon'];
+
+const count = fruits.reduce((acc,curr)=>{
+  acc[curr] = ( acc[curr] || 0 ) + 1
+return acc
+},{})
+
+console.log(count)
